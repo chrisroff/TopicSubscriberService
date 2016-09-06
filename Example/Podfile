@@ -1,5 +1,7 @@
 use_frameworks!
 
+pod 'CocoaMQTT', '~> 1.0.8'
+
 target 'TopicSubscriberService_Example' do
   pod 'TopicSubscriberService', :path => '../'
 

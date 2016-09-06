@@ -1,0 +1,27 @@
+{
+  "name": "TopicSubscriberService",
+  "version": "0.1.0",
+  "summary": "TopicSubscriberService allows easy data syncing with mqtt broker.",
+  "description": "TopicSubscriberService allows easy data syncing with mqtt broker using a simple subscriber:callback pattern.",
+  "homepage": "https://github.com/chrisroff/TopicSubscriberService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "∞": "croff@alerttech.net"
+  },
+  "source": {
+    "git": "https://github.com/chrisroff/TopicSubscriberService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TopicSubscriberService/Classes/**/*",
+  "dependencies": {
+    "CocoaMQTT": [
+      "~> 1.0.8"
+    ]
+  }
+}
